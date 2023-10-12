@@ -6,6 +6,7 @@ import "../globals.css"
 import {  FaEnvelope, FaPhone, FaLinkedin, FaWhatsapp} from 'react-icons/fa';
 import { useState } from 'react';
 import { IoIosArrowForward } from 'react-icons/io';
+import Link from 'next/link'
 
 export default function Home() {
  
@@ -78,31 +79,33 @@ export default function Home() {
   return (
     <div className='flex flex-col'>
       <section className='flex w-full h-screen pt-36 md:pt-[90px] bg-[#0A192F] '>
-        <div className='w-full pt-20 mx-6'>
+        <div className='w-full pt-4 mx-6 mb-4'>
           {/* Hero content */}
-          <div className='md:ml-16 mt-6'>
+          <div className='md:ml-16 mt-10 md:mt-12'>
             <div className=''>
               <p className='text-cyan-100 mb-6 text-xl '>
                 Hi, my name is
               </p>
-              <h1 className='text-[#CCD6F6] text-5xl md:text-8xl '>Jesse Bett.</h1>
-              <h1 className='text-[#8892B0] text-6xl md:text-7xl mt-6 '>I build things for the web.</h1>
+              <h1 className='text-[#CCD6F6] text-6xl md:text-8xl mb-12 md:mb-3'>Jesse Bett.</h1>
+              <h1 className='text-[#8892B0] text-5xl md:text-7xl md:mb-6 mb-16 '>I build things for the web.</h1>
             </div>
-            <div className="mt-6 md:w-1/2">
-              <p className="md:ml-5 leading-7 text-xl text-[#65708c]"> I'm a front-end engineer specializing in crafting exceptional digital experiences. Currently, I'm dedicated to building accessible, beautiful, and innovative products at <span className='underline-animation text-cyan-100'>Komunikon.</span></p>
+            <div className="md:mt-6 mt-10 md:w-1/2">
+              <p className="md:ml-5 leading-9 text-xl text-[#65708c]"> I'm a front-end engineer specializing in crafting exceptional digital experiences. Currently, I'm dedicated to building accessible, beautiful, and innovative products at <span className='underline-animation text-cyan-100'>Komunikon.</span></p>
             </div>
-            <div className="mt-10 ml-2 md:ml-3 mb-4 ">
+            <div className="ml-2 md:ml-3 mt-10  md:mt-12">
+              <Link href= "#about">
               <Button
                 label='Learn more'
               />
+              </Link>
             </div>
           </div>
         </div>
       </section>
       <section id="about" className="bg-[#0A192F] py-6">
-  <div className="p-6 md:p-16 rounded-lg  text-center">
+  <div className="p-10 md:p-16 rounded-lg  text-center">
     <div className=' flex items-center'>
-    <h1 className="text-3xl text-white mb-4">About me</h1>
+    <h1 className="text-2xl text-white mb-4">About me</h1>
     <hr className="border-white w-[50%]  ml-6 md:w-[35%]  " />
     </div>
     <div className="md:flex items-center">
