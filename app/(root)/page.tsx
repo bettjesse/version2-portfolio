@@ -260,7 +260,7 @@ export default function Home() {
             className="text-[#65708c] bg-[#2A3A59] px-2 py-1 rounded-md"
           >
             {tech}
-          </span>
+          </span> 
         ))}
       </div>
     </div>
@@ -308,19 +308,19 @@ export default function Home() {
 
 <div className="flex justify-center items-center space-x-8">
   <a
-    href="mailto:youremail@example.com"
+    href="mailto:jessebett1999@gmail.com"
     className="text-cyan-100 hover:text-cyan-200 transition duration-300 text-lg md:text-2xl"
   >
     <FaEnvelope />
   </a>
   <a
-    href="tel:+1234567890"
+    href="tel:+254110426093"
     className="text-cyan-100 hover:text-cyan-200 transition duration-300 text-lg md:text-2xl"
   >
     <FaPhone />
   </a>
   <a
-    href="https://www.linkedin.com/in/yourlinkedinprofile/"
+    href="https://www.linkedin.com/in/jesse-bett-46b0aa1a8/"
     target="_blank"
     rel="noopener noreferrer"
     className="text-cyan-100 hover:text-cyan-200 transition duration-300 text-lg md:text-2xl"
