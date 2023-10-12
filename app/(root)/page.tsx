@@ -3,9 +3,10 @@ import LeftSidebar from '@/components/LeftSidebar'
 import Image from 'next/image'
 import Button from '@/components/Button'
 import "../globals.css"
-import { FaArrowAltCircleRight, } from 'react-icons/fa';
+import {  FaEnvelope, FaPhone, FaLinkedin, FaWhatsapp} from 'react-icons/fa';
 import { useState } from 'react';
 import { IoIosArrowForward } from 'react-icons/io';
+
 export default function Home() {
  
  const companies = [
@@ -30,6 +31,7 @@ export default function Home() {
         'Achieved a remarkable 30% reduction in web page load times by implementing optimized code, enhancing website performance and user satisfaction.',
       ],
     },
+   
     {
       name: 'Artec Consultant',
       role: "Front end engineer",
@@ -40,24 +42,36 @@ export default function Home() {
         'Developed, maintained, and shipped production code for client websites primarily using HTML, React, CSS, JavaScript, and jQuery.',
       ],
     },
-    // Add more companies and descriptions as needed
+   
   ];
   
   const portfolio = [
     {
-      name: 'Project 1',
-      description: 'This is the first project description.',
-      image: '/hero1.jpg', 
-      technologies: ['React', 'Node.js', 'Tailwind CSS'],
+      name: 'Favorite Quotes',
+      description: 'A web app where users can log in and save their favorite quotes and authors. Users can browse quotes from various categories. Built with TypeScript, React, Node.js, Express, Redux Toolkit, Redux Toolkit Query, MongoDB, and styled with Tailwind CSS.',
+      image: '/quote.jpg',
+      technologies: ['TypeScript', 'React', 'Node.js', 'Express', 'Redux Toolkit', 'Redux Toolkit Query', 'MongoDB', 'Tailwind CSS'],
+      liveLink: 'https://quotes-0a4v.onrender.com',
+      githubRepo: 'https://github.com/bettjesse/favorite-quotes',
     },
     {
-      name: 'Project 2',
-      description: 'This is the second project description.',
-      image: '/hero1.jpg', 
-      technologies: ['React', 'Express', 'SASS'],
+      name: 'Table Reservation System',
+      description: 'A convenient online reservation system that allows users to easily reserve tables at their favorite restaurants. Developed using React, MongoDB, Express, and Node.js.',
+      image: '/reservation.jpg',
+      technologies: ['React', 'MongoDB', 'Express', 'Node.js'],
+      liveLink: 'https://table-mate.onrender.com/',
+      githubRepo: 'https://github.com/bettjesse/table-reservation',
     },
- 
+    {
+      name: 'Pokemon Search',
+      description: 'Explore the world of Pokémon with this web app. Search for Pokémon by name and discover detailed information. Developed using TypeScript, Zustand state management, and React.',
+      image: '/project4.jpg',
+      technologies: ['TypeScript', 'Zustand', 'React'],
+      liveLink: '', // Add your live link here
+      githubRepo: 'https://github.com/bettjesse/zustand-pokemon-state-management',
+    },
   ];
+  
   
   const [activeCompany, setActiveCompany] = useState(companies[0]);
   const iconSize= 20
@@ -72,12 +86,12 @@ export default function Home() {
                 Hi, my name is
               </p>
               <h1 className='text-[#CCD6F6] text-5xl md:text-8xl '>Jesse Bett.</h1>
-              <h1 className='text-[#8892B0] text-6xl md:text-8xl mt-6 '>I build things for the web.</h1>
+              <h1 className='text-[#8892B0] text-6xl md:text-7xl mt-6 '>I build things for the web.</h1>
             </div>
             <div className="mt-6 md:w-1/2">
               <p className="md:ml-5 leading-7 text-xl text-[#65708c]"> I'm a front-end engineer specializing in crafting exceptional digital experiences. Currently, I'm dedicated to building accessible, beautiful, and innovative products at <span className='underline-animation text-cyan-100'>Komunikon.</span></p>
             </div>
-            <div className="mt-12 ml-2 md:ml-3 ">
+            <div className="mt-10 ml-2 md:ml-3 mb-4 ">
               <Button
                 label='Learn more'
               />
@@ -157,129 +171,172 @@ export default function Home() {
 
 
 <section id="experience" className="bg-[#0A192F]">
-  <div className="  h-screen flex justify-center items-center">
-    <div className='  justify-center  h-auto  w-3/4 '>
-      <div className="flex items-center  ">
-        <h1 className="text-3xl text-white mb-4">Where I have worked</h1>
-        <hr className="border-white w-[50%] ml-6 md:w-[35%]" />
+  <div className=" md:py-12 flex flex-col md:flex-row justify-center items-center">
+    <div className='w-full md:w-3/4'>
+      <div className="flex items-center ">
+        <h1 className="md:text-3xl text-lg text-white mb-4 mt-4 md:mt-0 ml-3 md:ml-0">Where I have worked</h1>
+        <hr className="border-white w-[30%] md:ml-6 ml-4 md:w-[35%]" />
       </div>
 
-      <div className=' w-full h  px-12 flex items-center justify-center h-auto '>
+      <div className='w-full  px-4 md:px-12 flex flex-col md:flex-row items-center justify-center h-auto'>
         {/* Left column for company names */}
-        <div className="w-1/4">
-        
-            <ul className="space-y-4">
-              {companies.map((company, index) => (
-                <li
-                  key={index}
-                  className={`cursor-pointer ${
-                    activeCompany.name === company.name ? 'text-cyan-100 font-bold' : 'text-[#65708c]'
+        <div className="w-full md:w-1/4 mb-4 md:mb-0">
+        <div className="custom-scroll max-h-40 md:max-h-full ">
+    <ul className="md:space-y-4 flex md:flex-col items-center space-x-4">
+      {companies.map((company, index) => (
+        <li
+          key={index}
+          className={`cursor-pointer ${
+            activeCompany.name === company.name ? 'text-cyan-100 font-bold' : 'text-[#65708c] '
+          }`}
+          onClick={() => setActiveCompany(company)}
+        >
+          {company.name}
+        </li>
+      ))}
+    </ul>
+  </div>
+</div>
 
-                  }`}
-                  onClick={() => setActiveCompany(company)}
-                >
-                  {company.name}
-                </li>
-              ))}
-            </ul>
-          
-        </div>
+
         {/* Right column for company description */}
-        <div className="w-3/4 ml-4 ">
+        <div className="w-full md:w-3/4 ml-0 md:ml-4">
           <div className="text-left text-white mt-4">
-            <h2 className="text-2xl mb-2">{activeCompany.role} @ <span className='text-cyan-100' >{activeCompany.name}</span></h2>
-            <p className=' my-5 text-[#65708c] '>{activeCompany.period}</p>
-            <div className=" pl-4">
-          
-
-            {activeCompany.description.map((item, index) => (
-  <div key={index} className="flex items-start my-3">
-    <div className="icon-wrapper mr-8">
-      < IoIosArrowForward className="text-cyan-100" />
+            <h2 className="text-2xl mb-2">
+              {activeCompany.role} @{' '}
+              <span className='text-cyan-100'>{activeCompany.name}</span>
+            </h2>
+            <p className='my-2 text-[#65708c] '>{activeCompany.period}</p>
+            <div className="pl-4">
+              {activeCompany.description.map((item, index) => (
+                <div key={index} className="flex items-start my-3">
+                  <div className="icon-wrapper mr-4">
+                    <IoIosArrowForward className="text-cyan-100" />
+                  </div>
+                  <span className="text-[#65708c] ">{item}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <span className="text-[#65708c] ">{item}</span>
+  </div>
+</section>
+
+
+
+<section id="work" className="bg-[#0A192F] ">
+  <div className=" pt-6 flex justify-center items-center h-full">
+    <div className="w-full md:w-3/4">
+      <div className="  mt-6  items-center">
+        <div className='flex items-center justify-center '>
+        <h1 className="md:text-3xl text-lg text-center text-gray-100 mb-4">Some things I have built</h1>
+        <hr className="border-[#65708c] w-[38%] md:ml-6 ml-3 md:w-[40%]" />
+        </div>
+      </div>
+      <div className="flex flex-col items-center w-full h-auto mt-5 px-4 md:px-12">
+      {portfolio.map((project, index) => (
+  <div
+    key={index}
+    className="mb-8 w-full md:max-w-[800px] bg-[#1E304E] rounded-lg p-4"
+  >
+    <Image
+      src={project.image}
+      alt={project.name}
+      width={800}
+      height={500}
+      className="w-full rounded-lg mb-4"
+    />
+    <p className="text-[#65708c] mb-4">{project.description}</p>
+    <div>
+      <h3 className="text-xl text-cyan-100 mb-2">
+        Technologies Used:
+      </h3>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-2">
+        {project.technologies.map((tech, techIndex) => (
+          <span
+            key={techIndex}
+            className="text-[#65708c] bg-[#2A3A59] px-2 py-1 rounded-md"
+          >
+            {tech}
+          </span>
+        ))}
+      </div>
+    </div>
+    <div className="mt-4 flex justify-between">
+      <a
+        href={project.liveLink}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-cyan-200 hover:underline hover:text-cyan-100 transition"
+      >
+        View Site
+      </a>
+      <a
+        href={project.githubRepo}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-cyan-200 hover:underline hover:text-cyan-100 transition"
+      >
+        GitHub Repository
+      </a>
+    </div>
   </div>
 ))}
 
 
-
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   </div>
 </section>
 
-<section id="work" className="bg-[#0A192F] ">
-  <div className="flex justify-center items-center h-full">
-    <div className="w-3/4">
-      <div className='flex items-center '>
-      <h1 className="text-3xl text-white mb-4">Some things I have built</h1>
-      <hr className="border-white w-[50%] ml-6 md:w-[55%]" />
-      </div>
-      <div className="flex flex-col items-center w-full h-auto mt-5 px-12">
-        {portfolio.map((project, index) => (
-          <div
-            key={index}
-            className="mb-8 w-full max-w-[800px] bg-[#1E304E] rounded-lg p-4"
-          >
-            <Image
-              src={project.image}
-              alt={project.name}
-              height={30}
-              width={30}
-              className="w-full rounded-lg mb-4"
-            />
-            <p className="text-[#65708c] mb-4">{project.description}</p>
-            <div>
-              <h3 className="text-xl text-cyan-100 mb-2">
-                Technologies Used:
-              </h3>
-              <ul className="list-disc pl-6">
-                {project.technologies.map((tech, techIndex) => (
-                  <li key={techIndex} className="text-[#65708c]">
-                    {tech}
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </div>
-        ))}
-      </div>
-    </div>
-  </div>
-</section>
+
 
 <section id="contact" className="bg-[#0A192F] py-6 text-white text-center">
-  <div className="p-6 md:p-16   ">
-    <div className='md:w-[80%]' >
-    <h1 className="text-3xl mb-4">Get in Touch</h1>
-    <p className="text-lg  text-[#65708c] mb-8">
+  <div className="p-6 md:p-24  w-full ">
+    <div className='' >
+      <div className='md:w-3/4 mx-auto  py-4'>
+      <p className='text-[#65708c] mb-4'>What's Next ?</p>
+    <h1 className="text-6xl mb-4 ">Get in Touch</h1>
+    <p className="text-lg text-center text-[#65708c] mb-8">
       I'd love to hear from you! Whether it's just to say hello, discuss a project, or any other inquiry, feel free to reach out.
     </p>
-    <div className="flex justify-center items-center space-x-4">
-      <a
-        href="mailto:youremail@example.com"
-        className="text-cyan-100 hover:text-cyan-200 transition duration-300"
-      >
-        Email
-      </a>
-      <a
-        href="tel:+1234567890"
-        className="text-cyan-100 hover:text-cyan-200 transition duration-300"
-      >
-        Call
-      </a>
-      <a
-        href="https://www.linkedin.com/in/yourlinkedinprofile/"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="text-cyan-100 hover:text-cyan-200 transition duration-300"
-      >
-        LinkedIn
-      </a>
     </div>
+   
+
+
+<div className="flex justify-center items-center space-x-8">
+  <a
+    href="mailto:youremail@example.com"
+    className="text-cyan-100 hover:text-cyan-200 transition duration-300 text-lg md:text-2xl"
+  >
+    <FaEnvelope />
+  </a>
+  <a
+    href="tel:+1234567890"
+    className="text-cyan-100 hover:text-cyan-200 transition duration-300 text-lg md:text-2xl"
+  >
+    <FaPhone />
+  </a>
+  <a
+    href="https://www.linkedin.com/in/yourlinkedinprofile/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-cyan-100 hover:text-cyan-200 transition duration-300 text-lg md:text-2xl"
+  >
+    <FaLinkedin />
+  </a>
+  <a
+    href="https://wa.me/254110426093"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-cyan-100 hover:text-cyan-200 transition duration-300 text-lg md:text-2xl"
+  >
+    <FaWhatsapp />
+  </a>
+</div>
+
   </div>
   </div>
 </section>
