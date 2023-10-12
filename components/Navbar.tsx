@@ -34,7 +34,7 @@ const Navbar: React.FC = () => {
               <Link href="#contact">Contact</Link>
             </div>
             <a
-              href="https://drive.google.com/file/d/1GPRZEDW8AWqQVvSC3g1REr1DoPG7BJ4-/view?usp=sharing"
+              href="https://drive.google.com/file/d/1ZUmNmShMFMMYKGe6chjoMc4C_m_OvDEr/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -69,7 +69,7 @@ const Navbar: React.FC = () => {
                 <Link href="#experience" className="block text-[#B4BFDE]">Experience</Link>
                 <Link href="#work" className="block text-[#B4BFDE]">Work</Link>
                 <Link href="#contact" className="block text-[#B4BFDE]">Contact</Link>
-                <a href="https://drive.google.com/file/d/1GPRZEDW8AWqQVvSC3g1REr1DoPG7BJ4-/view?usp=sharing" className="block mt-3 bg-cyan-100 rounded-lg p-1">Resume</a>
+                <a href="https://drive.google.com/file/d/1ZUmNmShMFMMYKGe6chjoMc4C_m_OvDEr/view?usp=sharing" className="block mt-3 bg-cyan-100 rounded-lg p-1">Resume</a>
                 </div>
                 <IoMdClose
                   className="block text-cyan-100 mt-4  absolute top-0 right-1"
