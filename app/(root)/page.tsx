@@ -50,7 +50,7 @@ export default function Home() {
     {
      name: 'Learning Management System',
   description: 'An LMS similar to Udemy where instructors can create courses and students can enroll. Features include progress tracking, chapter divisions, video lectures, additional PDF resources, and utilizes technologies like Next.js, React, Tailwind CSS, MySQL, Prisma, and implements the latest version of Next.js with the app router feature.',
-  image: '/lms-pic.png',
+  image: '/lms-project-image.png',
   technologies: ['Next.js', 'React', 'Tailwind CSS', 'MySQL', 'Prisma'],
   liveLink: 'https://bett-lms.vercel.app/',
   githubRepo: 'https://github.com/bettjesse/learning-management-system',
