@@ -48,6 +48,14 @@ export default function Home() {
   
   const portfolio = [
     {
+     name: 'Learning Management System',
+  description: 'An LMS similar to Udemy where instructors can create courses and students can enroll. Features include progress tracking, chapter divisions, video lectures, additional PDF resources, and utilizes technologies like Next.js, React, Tailwind CSS, MySQL, Prisma, and implements the latest version of Next.js with the app router feature.',
+  image: '/lms-pic.png',
+  technologies: ['Next.js', 'React', 'Tailwind CSS', 'MySQL', 'Prisma'],
+  liveLink: 'https://bett-lms.vercel.app/',
+  githubRepo: 'https://github.com/bettjesse/learning-management-system',
+    },
+    {
       name: 'Favorite Quotes',
       description: 'A web app where users can log in and save their favorite quotes and authors. Users can browse quotes from various categories. Built with TypeScript, React, Node.js, Express, Redux Toolkit, Redux Toolkit Query, MongoDB, and styled with Tailwind CSS.',
       image: '/quote.jpg',
