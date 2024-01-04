@@ -47,15 +47,17 @@ export default function Home() {
   ];
   
   const portfolio = [
-    {
-     name: 'Learning Management System',
-  description: 'An LMS similar to Udemy where instructors can create courses and students can enroll. Features include progress tracking, chapter divisions, video lectures, additional PDF resources, and utilizes technologies like Next.js, React, Tailwind CSS, MySQL, Prisma, and implements the latest version of Next.js with the app router feature.',
-  image: '/lms-project-image.png',
-  technologies: ['Next.js', 'React', 'Tailwind CSS', 'MySQL', 'Prisma'],
-  liveLink: 'https://bett-lms.vercel.app/',
-  githubRepo: 'https://github.com/bettjesse/learning-management-system',
-    },
     
+    
+    {
+  name: 'Tech Blos',
+  description: 'A dynamic tech-focused blogging platform enabling users to create, view, like, and save tech-related content. Users can post and explore articles covering diverse categories such as front-end development, interview tips, React, MongoDB, and more. Features include user authentication, article categorization, interaction functionalities like liking, saving, and commenting.',
+  image: '/tech-blogs.jpg',
+  technologies: ['Next.js', 'React', 'Prisma', 'Shadcn-ui' ,'Tailwind CSS', 'MongoDB'],
+  liveLink: 'https://github.com/bettjesse/tech-blog',
+  githubRepo: 'https://github.com/bettjesse/tech-blog',
+}
+
     {
       name: 'Table Reservation System',
       description: 'A convenient online reservation system that allows users to easily reserve tables at their favorite restaurants. Developed using React, MongoDB, Express, and Node.js.',
