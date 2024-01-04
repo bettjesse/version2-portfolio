@@ -47,9 +47,7 @@ export default function Home() {
   ];
   
   const portfolio = [
-    
-    
-    {
+     {
   name: 'Tech Blos',
   description: 'A dynamic tech-focused blogging platform enabling users to create, view, like, and save tech-related content. Users can post and explore articles covering diverse categories such as front-end development, interview tips, React, MongoDB, and more. Features include user authentication, article categorization, interaction functionalities like liking, saving, and commenting.',
   image: '/tech-blogs.jpg',
