@@ -56,7 +56,7 @@ export default function Home() {
   technologies: ['Next.js', 'React', 'Prisma', 'Shadcn-ui' ,'Tailwind CSS', 'MongoDB'],
   liveLink: 'https://github.com/bettjesse/tech-blog',
   githubRepo: 'https://github.com/bettjesse/tech-blog',
-}
+},
 
     {
       name: 'Table Reservation System',
