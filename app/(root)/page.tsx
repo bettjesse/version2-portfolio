@@ -50,7 +50,7 @@ export default function Home() {
      {
   name: 'Tech Blos',
   description: 'A dynamic tech-focused blogging platform enabling users to create, view, like, and save tech-related content. Users can post and explore articles covering diverse categories such as front-end development, interview tips, React, MongoDB, and more. Features include user authentication, article categorization, interaction functionalities like liking, saving, and commenting.',
-  image: '/tech-blogs.jpg',
+  image: '/tech-blog.jpg',
   technologies: ['Next.js', 'React', 'Prisma', 'Shadcn-ui' ,'Tailwind CSS', 'MongoDB'],
   liveLink: 'https://github.com/bettjesse/tech-blog',
   githubRepo: 'https://github.com/bettjesse/tech-blog',
