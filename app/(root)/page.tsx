@@ -38,7 +38,7 @@ export default function Home() {
       role: "Software engineer ",
       period: "Jan 2021- March 2021",
       description: [
-        ' Collaborated on the development an innovative online valuation platform enabling users to upload car images for appraisal, leveraging React, MongoDB, and Node.js. This initiative streamlined the valuation process and reduced turnaround time by 40%.'
+        ' Collaborated on the development an innovative online valuation platform enabling users to upload car images for appraisal, leveraging React, MongoDB, and Node.js. This initiative streamlined the valuation process and reduced turnaround time by 40%.',
 
 ' Contributed significantly to the development of the automobile valuation system, integrating React for the frontend interface, MongoDB for efficient data storage, and Node.js for seamless backend operations, enhancing user accessibility and valuation accuracy.',
         
