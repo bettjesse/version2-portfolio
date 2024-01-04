@@ -55,14 +55,7 @@ export default function Home() {
   liveLink: 'https://bett-lms.vercel.app/',
   githubRepo: 'https://github.com/bettjesse/learning-management-system',
     },
-    {
-      name: 'Favorite Quotes',
-      description: 'A web app where users can log in and save their favorite quotes and authors. Users can browse quotes from various categories. Built with TypeScript, React, Node.js, Express, Redux Toolkit, Redux Toolkit Query, MongoDB, and styled with Tailwind CSS.',
-      image: '/quote.jpg',
-      technologies: ['TypeScript', 'React', 'Node.js', 'Express', 'Redux Toolkit', 'Redux Toolkit Query', 'MongoDB', 'Tailwind CSS'],
-      liveLink: 'https://quotes-0a4v.onrender.com',
-      githubRepo: 'https://github.com/bettjesse/favorite-quotes',
-    },
+    
     {
       name: 'Table Reservation System',
       description: 'A convenient online reservation system that allows users to easily reserve tables at their favorite restaurants. Developed using React, MongoDB, Express, and Node.js.',
@@ -70,6 +63,14 @@ export default function Home() {
       technologies: ['React', 'MongoDB', 'Express', 'Node.js'],
       liveLink: 'https://table-mate.onrender.com/',
       githubRepo: 'https://github.com/bettjesse/table-reservation',
+    },
+{
+      name: 'Favorite Quotes',
+      description: 'A web app where users can log in and save their favorite quotes and authors. Users can browse quotes from various categories. Built with TypeScript, React, Node.js, Express, Redux Toolkit, Redux Toolkit Query, MongoDB, and styled with Tailwind CSS.',
+      image: '/quote.jpg',
+      technologies: ['TypeScript', 'React', 'Node.js', 'Express', 'Redux Toolkit', 'Redux Toolkit Query', 'MongoDB', 'Tailwind CSS'],
+      liveLink: 'https://quotes-0a4v.onrender.com',
+      githubRepo: 'https://github.com/bettjesse/favorite-quotes',
     },
     {
       name: 'Pokemon Search',
