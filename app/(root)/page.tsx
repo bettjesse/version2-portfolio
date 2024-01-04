@@ -25,22 +25,23 @@ export default function Home() {
     {
       name: 'Tiro Tech',
       role: "Front end engineer",
-      period: "June 2022- August 2023",
+      period: "September 2021- August 2023",
       description: [
-        'Collaborated with a remote team on diverse projects, showcasing mastery in frontend development using React, Redux, JavaScript, and Tailwind CSS.',
-        'Led the creation of visually appealing and user-friendly interfaces for high-quality web applications, ensuring a seamless user experience.',
-        'Achieved a remarkable 30% reduction in web page load times by implementing optimized code, enhancing website performance and user satisfaction.',
+        'Implemented Redux and Redux toolkit for state management, fostering a robust and scalable application structure, resulting in a 30% increase in development efficiency and code maintainability',
+        'Used React js within project architectures, optimizing rendering performance and achieving a 25% reduction in initial page load times across various web applications',
+        'Engineered visually appealing and highly responsive user interfaces utilizing Tailwind CSS, contributing to a 40% improvement in website interaction and user engagement metrics',
       ],
     },
    
     {
-      name: 'Artec Consultant',
-      role: "Front end engineer",
-      period: "May 2021- May 2022",
+      name: 'Cambrian Valuers Limited',
+      role: "Software engineer ",
+      period: "Jan 2021- March 2021",
       description: [
-        'Introduced image lazy loading, resulting in a 20% decrease in initial page load times and a 30% reduction in upfront resource loading, contributing to improved website performance.',
-        'Significantly improved software quality by reducing production bugs by 20% through rigorous testing methodologies, primarily using Jest for comprehensive test coverage.',
-        'Developed, maintained, and shipped production code for client websites primarily using HTML, React, CSS, JavaScript, and jQuery.',
+        ' Collaborated on the development an innovative online valuation platform enabling users to upload car images for appraisal, leveraging React, MongoDB, and Node.js. This initiative streamlined the valuation process and reduced turnaround time by 40%.'
+
+' Contributed significantly to the development of the automobile valuation system, integrating React for the frontend interface, MongoDB for efficient data storage, and Node.js for seamless backend operations, enhancing user accessibility and valuation accuracy.',
+        
       ],
     },
    
@@ -50,7 +51,7 @@ export default function Home() {
      {
   name: 'Tech Blos',
   description: 'A dynamic tech-focused blogging platform enabling users to create, view, like, and save tech-related content. Users can post and explore articles covering diverse categories such as front-end development, interview tips, React, MongoDB, and more. Features include user authentication, article categorization, interaction functionalities like liking, saving, and commenting.',
-  image: '/tech-blog.jpg',
+  image: '/tech-blog-update.jpg',
   technologies: ['Next.js', 'React', 'Prisma', 'Shadcn-ui' ,'Tailwind CSS', 'MongoDB'],
   liveLink: 'https://github.com/bettjesse/tech-blog',
   githubRepo: 'https://github.com/bettjesse/tech-blog',
