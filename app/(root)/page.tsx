@@ -53,7 +53,7 @@ export default function Home() {
   description: 'A dynamic tech-focused blogging platform enabling users to create, view, like, and save tech-related content. Users can post and explore articles covering diverse categories such as front-end development, interview tips, React, MongoDB, and more. Features include user authentication, article categorization, interaction functionalities like liking, saving, and commenting.',
   image: '/tech-blog-update.jpg',
   technologies: ['Next.js', 'React', 'Prisma', 'Typescript', 'Redux', 'Shadcn-ui' ,'Tailwind CSS', 'MongoDB'],
-  liveLink: 'tech-blog-bettjesse.vercel.app',
+  liveLink: 'https://tech-blog-bettjesse.vercel.app',
   githubRepo: 'https://github.com/bettjesse/tech-blog',
 },
 
