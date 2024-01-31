@@ -75,7 +75,7 @@ export default function Home() {
     },
  {
   name: 'Modern Bank UI/UX',
-  description: 'Transformed a Figma design into a fully functional bank mobile responsive landing page using React and Tailwind CSS. Experience a modern and intuitive user interface for managing your banking needs.',
+  description: 'Transformed a Figma design into a fully functional  mobile responsive bank landing page using React and Tailwind CSS. Experience a modern and intuitive user interface for managing your banking needs.',
   image: '/uxui.png', 
   technologies: ['React','Javascript', 'Tailwind CSS'],
   liveLink: 'https://modern-uxui-bank-website.netlify.app/',
