@@ -73,14 +73,15 @@ export default function Home() {
       liveLink: 'https://quotes-0a4v.onrender.com',
       githubRepo: 'https://github.com/bettjesse/favorite-quotes',
     },
-    {
-      name: 'Pokemon Search',
-      description: 'Explore the world of Pokémon with this web app. Search for Pokémon by name and discover detailed information. Developed using TypeScript, Zustand state management, and React.',
-      image: '/project4.jpg',
-      technologies: ['TypeScript', 'Zustand', 'React'],
-      liveLink: '', // Add your live link here
-      githubRepo: 'https://github.com/bettjesse/zustand-pokemon-state-management',
-    },
+ {
+  name: 'Modern Bank UI/UX',
+  description: 'Transformed a Figma design into a fully functional bank mobile responsive landing page using React and Tailwind CSS. Experience a modern and intuitive user interface for managing your banking needs.',
+  image: '/uxui.png', 
+  technologies: ['React','Javascript', 'Tailwind CSS'],
+  liveLink: 'https://modern-uxui-bank-website.netlify.app/',
+  githubRepo: 'https://github.com/bettjesse/uxui',
+}
+
   ];
   
   
