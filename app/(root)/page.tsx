@@ -25,7 +25,7 @@ export default function Home() {
     {
       name: 'Tiro Tech',
       role: "Front end engineer",
-      period: "September 2021- August 2023",
+      period: "August 2022- August 2023",
       description: [
         'Implemented Redux and Redux toolkit for state management, fostering a robust and scalable application structure, resulting in a 30% increase in development efficiency and code maintainability',
         'Used React js within project architectures, optimizing rendering performance and achieving a 25% reduction in initial page load times across various web applications',
@@ -36,7 +36,7 @@ export default function Home() {
     {
       name: 'Cambrian Valuers Limited',
       role: "Software engineer Intern ",
-      period: "Jan 2021- March 2021",
+      period: "Jan 2021- April 2022",
       description: [
         ' Collaborated on the development an innovative online valuation platform enabling users to upload car images for appraisal, leveraging React, MongoDB, and Node.js. This initiative streamlined the valuation process and reduced turnaround time by 40%.',
 
