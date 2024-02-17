@@ -30,7 +30,7 @@ const Navbar: React.FC = () => {
             <div className="flex items-center space-x-4 mr-2 text-[#B4BFDE]">
               <Link href="#about">About</Link>
               <Link href="#experience">Experience</Link>
-              <Link href="#work">Work</Link>
+              <Link href="#work">Projects</Link>
               <Link href="#contact">Contact</Link>
             </div>
             <a
