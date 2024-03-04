@@ -103,7 +103,7 @@ export default function Home() {
               <h1 className='text-[#8892B0] text-5xl md:text-7xl md:mb-6 mb-16 '>I build things for the web.</h1>
             </div>
             <div className="md:mt-6 mt-10 md:w-1/2">
-              <p className="md:ml-5 leading-9 text-xl text-[#65708c]"> I'm a front-end engineer specializing in crafting exceptional digital experiences. Currently, I'm dedicated to building accessible, beautiful, and innovative products at <span className='underline-animation text-cyan-100'>Komunikon.</span></p>
+              <p className="md:ml-5 leading-9 text-xl text-[#65708c] font-bold"> I'm a front-end engineer specializing in crafting exceptional digital experiences. Currently, I'm dedicated to building accessible, beautiful, and innovative products at <span className='underline-animation text-cyan-100'>Komunikon.</span></p>
             </div>
             <div className="ml-2 md:ml-3 mt-10  md:mt-12">
               <Link href= "#about">
@@ -123,16 +123,16 @@ export default function Home() {
     </div>
     <div className="md:flex items-center">
       <div className="md:w-1/2 md:mr-8 text-left ">
-        <p className="text-[#65708c] text-lg">
+        <p className="text-[#65708c] text-lg font-bold">
           Hello! I'm Jesse Bett, and my journey into the world of web development began with a passion for coding during my first-year introduction to web design course. It was during this course that I discovered my love for creating digital experiences on the web.
         </p>
-        <p className="mt-4 text-[#65708c]">
+        <p className="mt-4 text-[#65708c] font-bold">
           Throughout my career, I've had the privilege of contributing to the growth of tech startups and helping non-tech companies establish their online presence. I've been dedicated to making technology accessible and enjoyable for users, with a particular emphasis on user experience (UX). To me, crafting web experiences that feel seamless and intuitive is both a passion and a mission.
         </p>
-        <p className="text-[#65708c] mt-4">
+        <p className="text-[#65708c] mt-4 font-bold">
           As a key member of the team at<span className="underline-animation text-cyan-100"> Komunikon</span>, my primary responsibility is to design and develop front-end interfaces, all while playing a vital role in shaping user experiences. Komunikon's overarching mission centers around the creation and promotion of an innovative icon language, setting new standards for visual communication in the digital landscape.
         </p>
-        <p className="mt-4 text-[#65708c]">In addition to my professional work, I've recently built a table reservation system to help reserving tables at a restaurant easy. It's my way of practicing my skills and giving back to the community.</p>
+        <p className="mt-4 text-[#65708c] font-bold">In addition to my professional work, I've recently built a table reservation system to help reserving tables at a restaurant easy. It's my way of practicing my skills and giving back to the community.</p>
         <div className="mt-8">
           <h2 className="text-[#65708c] mb-4">Technologies I've Been Working With:</h2>
           <div className="flex flex-wrap justify-between">
@@ -229,7 +229,7 @@ export default function Home() {
                   <div className="icon-wrapper mr-4">
                     <IoIosArrowForward className="text-cyan-100" />
                   </div>
-                  <span className="text-[#65708c] ">{item}</span>
+                  <span className="text-[#65708c] font-bold">{item}</span>
                 </div>
               ))}
             </div>
@@ -264,7 +264,7 @@ export default function Home() {
       height={500}
       className="w-full rounded-lg mb-4"
     />
-    <p className="text-[#65708c] mb-4">{project.description}</p>
+    <p className="text-[#65708c] mb-4 font-bold">{project.description}</p>
     <div>
       <h3 className="text-xl text-cyan-100 mb-2">
         Technologies Used:
@@ -273,7 +273,7 @@ export default function Home() {
         {project.technologies.map((tech, techIndex) => (
           <span
             key={techIndex}
-            className="text-[#65708c] bg-[#2A3A59] px-2 py-1 rounded-md"
+            className="text-[#65708c] bg-[#2A3A59] px-2 py-1 rounded-md font-bold"
           >
             {tech}
           </span> 
