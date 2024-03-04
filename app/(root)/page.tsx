@@ -68,7 +68,7 @@ export default function Home() {
    
 {
   name: 'Text2Ikon',
-  description: 'Revolutionize communication with Text2Ikon, a platform introducing a new visual language called "ikon." Users can create sentences using icons, forming a language that utilizes the unique power of ikons. In short, it's a visual language platform for seamless communication through icons.',
+  description: 'Revolutionize communication with Text2Ikon, a platform introducing a new visual language called ikon. Users can create sentences using icons, forming a language that utilizes the unique power of ikons. In short, it is a visual language platform for seamless communication through icons.',
   image: '/ikon.jpg',
   technologies: ['JavaScript', 'React.js', 'Next.js', 'Redux', 'Redux Toolkit Query', 'Tailwind CSS'],
   liveLink: 'https://text2ikon.komunikon.com/search',
