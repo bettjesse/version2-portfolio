@@ -49,7 +49,7 @@ export default function Home() {
   
   const portfolio = [
      {
-  name: 'Tech Blos',
+  name: 'Tech Blogs',
   description: 'A dynamic tech-focused blogging platform enabling users to create, view, like, and save tech-related content. Users can post and explore articles covering diverse categories such as front-end development, interview tips, React, MongoDB, and more. Features include user authentication, article categorization, interaction functionalities like liking, saving, and commenting.',
   image: '/tech-blog-update.jpg',
   technologies: ['Next.js', 'React', 'Prisma', 'Typescript', 'Redux', 'Shadcn-ui' ,'Tailwind CSS', 'MongoDB'],
@@ -66,13 +66,14 @@ export default function Home() {
       githubRepo: 'https://github.com/bettjesse/table-reservation',
     },
 {
-      name: 'Favorite Quotes',
-      description: 'A web app where users can log in and save their favorite quotes and authors. Users can browse quotes from various categories. Built with TypeScript, React, Node.js, Express, Redux Toolkit, Redux Toolkit Query, MongoDB, and styled with Tailwind CSS.',
-      image: '/quote.jpg',
-      technologies: ['TypeScript', 'React', 'Node.js', 'Express', 'Redux Toolkit', 'Redux Toolkit Query', 'MongoDB', 'Tailwind CSS'],
-      liveLink: 'https://quotes-0a4v.onrender.com',
-      githubRepo: 'https://github.com/bettjesse/favorite-quotes',
-    },
+  name: 'Text2Ikon',
+  description: 'Revolutionize communication with Text2Ikon, a platform introducing a groundbreaking visual language called "ikon." Users can create sentences using icons, forming a language that utilizes the unique power of ikons. In short, it's a visual language platform for seamless communication through icons.',
+  image: '/ikon.jpg',
+  technologies: ['JavaScript', 'React', 'Next.js', 'Redux', 'Redux Toolkit Query', 'Tailwind CSS'],
+  liveLink: 'https://text2ikon.komunikon.com/search',
+  githubRepo: 'https://text2ikon.komunikon.com/search',
+},
+
  {
   name: 'Modern Bank UI/UX',
   description: 'Transformed a Figma design into a fully functional  mobile responsive bank landing page using React and Tailwind CSS. Experience a modern and intuitive user interface for managing your banking needs.',
