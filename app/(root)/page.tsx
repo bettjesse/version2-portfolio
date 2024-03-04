@@ -65,6 +65,7 @@ export default function Home() {
       liveLink: 'https://table-mate.onrender.com/',
       githubRepo: 'https://github.com/bettjesse/table-reservation',
     },
+   
 {
   name: 'Text2Ikon',
   description: 'Revolutionize communication with Text2Ikon, a platform introducing a new visual language called "ikon." Users can create sentences using icons, forming a language that utilizes the unique power of ikons. In short, it's a visual language platform for seamless communication through icons.',
