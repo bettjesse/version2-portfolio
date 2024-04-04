@@ -94,7 +94,7 @@ export default function Home() {
       <section className='flex w-full h-screen pt-36 md:pt-[90px] bg-[#0A192F] '>
         <div className='w-full pt-4 mx-6 mb-4'>
           {/* Hero content */}
-          <div className='md:ml-16 mt-10 md:mt-12'>
+          <div className='md:ml-16 mt-8 md:mt-10'>
             <div className=''>
               <p className='text-cyan-100 mb-6 text-xl '>
                 Hi, my name is
@@ -105,7 +105,7 @@ export default function Home() {
             <div className="md:mt-6 mt-10 md:w-1/2">
               <p className="md:ml-5 leading-9 text-xl text-[#65708c] font-bold"> I'm a front-end engineer specializing in crafting exceptional digital experiences. Currently, I'm dedicated to building accessible, beautiful, and innovative products at <span className='underline-animation text-cyan-100'>Komunikon.</span></p>
             </div>
-            <div className="ml-2 md:ml-3 mt-10  md:mt-12">
+            <div className="ml-2 md:ml-3 mt-10  md:mt-10">
               <Link href= "#about">
               <Button
                 label='Learn more'
