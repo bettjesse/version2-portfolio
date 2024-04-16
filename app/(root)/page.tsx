@@ -36,7 +36,7 @@ export default function Home() {
     {
       name: 'Cambrian Valuers Limited',
       role: "Software engineer Intern ",
-      period: "Jan 2021- April 2022",
+      period: "September 2021- April 2022",
       description: [
         ' Collaborated on the development an innovative online valuation platform enabling users to upload car images for appraisal, leveraging React, MongoDB, and Node.js. This initiative streamlined the valuation process and reduced turnaround time by 40%.',
 
