@@ -163,7 +163,7 @@ export default function Home() {
             <div className="w-1/2 md:w-1/3 mb-4">
               <div className="flex items-center">
                 < IoIosArrowForward className="text-cyan-100 mr-2" />
-                <span className="text-[#65708c]">JavaScript (ES 6+)</span>
+                <span className="text-[#65708c]">JavaScript (ECMA 2022+)</span>
               </div>
             </div>
             <div className="w-1/2 md:w-1/3 mb-4">
