@@ -48,6 +48,15 @@ export default function Home() {
   ];
   
   const portfolio = [
+   {
+  name: 'PetSmart',
+  description: 'PetSmart is an innovative e-commerce platform dedicated to pet enthusiasts, offering a wide range of products and resources for pet care and training. Users can explore and purchase pet training manuals covering various topics such as obedience training, behavior modification, agility training, and more. Features include secure payment processing, instant access to purchased manuals, and a seamless browsing experience tailored to pet owners.',
+  image: '/petsmart-update.jpg',
+  technologies: ['Next.js', 'React', 'Prisma', 'Typescript', 'Stripe API', 'Tailwind CSS', 'MongoDB'],
+  liveLink: 'https://petsmart.vercel.app', 
+  githubRepo: 'https://github.com/bettjesse/store', 
+},
+
      {
   name: 'Tech Blogs',
   description: 'A dynamic tech-focused blogging platform enabling users to create, view, like, and save tech-related content. Users can post and explore articles covering diverse categories such as front-end development, interview tips, React, MongoDB, and more. Features include user authentication, article categorization, interaction functionalities like liking, saving, and commenting.',
