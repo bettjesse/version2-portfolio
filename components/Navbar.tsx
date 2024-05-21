@@ -34,7 +34,7 @@ const Navbar: React.FC = () => {
               <Link href="#contact">Contact</Link>
             </div>
             <a
-              href="https://drive.google.com/file/d/1-muVZVmnQeO_yLm1EpWNWifVytlhcFow/view?usp=sharing"
+              href="https://drive.google.com/file/d/1H79fczEzYZ-NXVXVA7WIrz723pFL0d-3/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
             >
