@@ -48,23 +48,26 @@ export default function Home() {
   ];
   
   const portfolio = [
-   {
-  name: 'PetSmart',
-  description: 'PetSmart is an innovative e-commerce platform dedicated to pet enthusiasts, offering a wide range of products and resources for pet care and training. Users can explore and purchase pet training manuals covering various topics such as obedience training, behavior modification, agility training, and more. Features include secure payment processing, instant access to purchased manuals, and a seamless browsing experience tailored to pet owners.',
-  image: '/petsmart-update.jpg',
-  technologies: ['Next.js', 'React', 'Prisma', 'Typescript', 'Stripe API', 'Tailwind CSS', 'MongoDB'],
-  liveLink: 'https://petsmart.vercel.app', 
-  githubRepo: 'https://github.com/bettjesse/store', 
+{
+  "name": "Sales Agent Dashboard",
+  "description": "Developed a comprehensive dashboard for sales agents to efficiently manage sales and operations. Features include school registrations, invoice management, tracking incoming invoices, handling bounced checks, and visualizing data with graphs and pie charts. Built with React and Tailwind CSS for the frontend, and a Node.js server for the backend, this dashboard offers a robust and intuitive interface for managing various aspects of sales and operations.",
+  "image": "/zeraki.jpg",
+  "technologies": ["React", "Javascript", "Tailwind CSS", "Node.js"],
+  "liveLink": "https://zeraki-dashboard.onrender.com/",
+  "githubRepo": "https://github.com/bettjesse/zeraki-dashboard"
 },
 
-     {
-  name: 'Tech Blogs',
-  description: 'A dynamic tech-focused blogging platform enabling users to create, view, like, and save tech-related content. Users can post and explore articles covering diverse categories such as front-end development, interview tips, React, MongoDB, and more. Features include user authentication, article categorization, interaction functionalities like liking, saving, and commenting.',
-  image: '/tech-blog-update.jpg',
-  technologies: ['Next.js', 'React', 'Prisma', 'Typescript', 'Redux', 'Shadcn-ui' ,'Tailwind CSS', 'MongoDB'],
-  liveLink: 'https://tech-blog-bettjesse.vercel.app',
-  githubRepo: 'https://github.com/bettjesse/tech-blog',
+{
+  name: 'Text2Ikon',
+  description: 'Revolutionize communication with Text2Ikon, a platform introducing a new visual language called ikon. Users can create sentences using icons, forming a language that utilizes the unique power of ikons. In short, it is a visual language platform for seamless communication through icons.',
+  image: '/ikon.jpg',
+  technologies: ['JavaScript', 'React.js', 'Next.js', 'Redux', 'Redux Toolkit Query', 'Tailwind CSS'],
+  liveLink: 'https://text2ikon.komunikon.com/search',
+  githubRepo: 'https://text2ikon.komunikon.com/search',
 },
+  
+
+   
 
     {
       name: 'Table Reservation System',
@@ -74,14 +77,23 @@ export default function Home() {
       liveLink: 'https://table-mate.onrender.com/',
       githubRepo: 'https://github.com/bettjesse/table-reservation',
     },
+  {
+  name: 'Tech Blogs',
+  description: 'A dynamic tech-focused blogging platform enabling users to create, view, like, and save tech-related content. Users can post and explore articles covering diverse categories such as front-end development, interview tips, React, MongoDB, and more. Features include user authentication, article categorization, interaction functionalities like liking, saving, and commenting.',
+  image: '/tech-blog-update.jpg',
+  technologies: ['Next.js', 'React', 'Prisma', 'Typescript', 'Redux', 'Shadcn-ui' ,'Tailwind CSS', 'MongoDB'],
+  liveLink: 'https://tech-blog-bettjesse.vercel.app',
+  githubRepo: 'https://github.com/bettjesse/tech-blog',
+},
    
-{
-  name: 'Text2Ikon',
-  description: 'Revolutionize communication with Text2Ikon, a platform introducing a new visual language called ikon. Users can create sentences using icons, forming a language that utilizes the unique power of ikons. In short, it is a visual language platform for seamless communication through icons.',
-  image: '/ikon.jpg',
-  technologies: ['JavaScript', 'React.js', 'Next.js', 'Redux', 'Redux Toolkit Query', 'Tailwind CSS'],
-  liveLink: 'https://text2ikon.komunikon.com/search',
-  githubRepo: 'https://text2ikon.komunikon.com/search',
+
+ {
+  name: 'PetSmart',
+  description: 'PetSmart is an innovative e-commerce platform dedicated to pet enthusiasts, offering a wide range of products and resources for pet care and training. Users can explore and purchase pet training manuals covering various topics such as obedience training, behavior modification, agility training, and more. Features include secure payment processing, instant access to purchased manuals, and a seamless browsing experience tailored to pet owners.',
+  image: '/petsmart-update.jpg',
+  technologies: ['Next.js', 'React', 'Prisma', 'Typescript', 'Stripe API', 'Tailwind CSS', 'MongoDB'],
+  liveLink: 'https://petsmart.vercel.app', 
+  githubRepo: 'https://github.com/bettjesse/store', 
 },
 
  {
